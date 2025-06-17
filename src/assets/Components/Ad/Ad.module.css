@@ -1,0 +1,32 @@
+ .adWrapper{
+    display: flex;
+    gap: 40px;
+    background-color: rgba(131,131,131,0.1);
+ }
+ .content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ .content h1{
+    font-size: 3.2rem;
+ }
+ .shape{
+    height:40px !important;
+    width: 40px !important;
+    position: absolute;
+    opacity: 0.5;
+}
+.shape1{
+    top: 100px;
+    right: 70px;
+}
+.shape2{
+    top: 30%;
+    left: -25%;
+}
+.shape3{
+    bottom: 5px;
+    right: 400px;
+}

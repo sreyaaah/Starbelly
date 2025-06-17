@@ -1,0 +1,92 @@
+/* Dishes.module.css */
+
+.dishWrapper {
+  flex-direction: column;
+  max-height:100%;
+  padding: 50px 60px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sectionTitle h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.sectionTitle p {
+  font-size: 18px;
+  color: #555;
+}
+.sectionTitle button{
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: center;  
+}
+
+.cardsWrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiperContainer {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.swiperSlide {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.content {
+  margin-top: 15px;
+}
+
+.primDetail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.primDetail h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.primDetail h5 {
+  font-size: 16px;
+  color: #28a745;
+}
+
+.content p {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #555;
+}
+
+.ratings i {
+  color: #ffc107;
+}
